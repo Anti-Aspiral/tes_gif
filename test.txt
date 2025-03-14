@@ -1,2 +1,28 @@
-hola x donas bimbo
+let pelo = 'rubia'
+let estatura = '1.80'
+let edad = '18'
 
+if(pelo == 'peliroja' && estatura >= '1.88' && edad >= '18'){
+    console.log('Hay Mach')
+}
+else{
+    console.log('Suerte la proxima')
+}
+function calculoMasa(peso, altura){
+    peso = prompt("Ingresa peso")
+    altura = prompt("Ingresa Altura") 
+
+    let imc = peso / (altura * 2)
+    console.log(peso)
+    console.log(altura)
+    console.log(imc)
+    if(imc < 18.5 ){
+        alert("Bajo de Peso")
+    }else if(imc > 18.5){
+        alert("Obeso Sobrepeso")
+    }
+
+}
+
+calculoMasa()
+//alert(iMC)
