@@ -1,0 +1,32 @@
+let plan = ["venuz, jupiter, sol"]
+consol.log(plan)
+
+plan.puhs("sol")
+consol.log("despues de push", planeta)
+
+plan.pop()
+consol.log("Despues de push", plan)
+    
+plan.unshift("venuz")
+consol.log("Despues de", unshift)
+
+plan.shift()
+consol.log("Despues de shift", plan)
+
+consol.log("numero de planetas", plan.length)
+consol.log("¿El arreglo encluye a 'venuz'?", plan.includes("venuz"))
+
+
+let num = [1,70, 63, 3938, 2, -7, -7, -8282]
+num.sort()
+console.log("Ordenados", num)
+
+num.reverse()
+consol.log("Invertidos", num)
+
+let matriz =[
+["julio", 79, -79]
+["hola", 80,]
+["moto", 90]
+]
+consol.log("edad", matriz[1][1])
